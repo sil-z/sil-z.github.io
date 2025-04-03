@@ -1,0 +1,41 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+lookup calt_i_li_ri {
+  lookupflag 1;
+    @cc1_match_1 = [\i];
+    @cc1_back_1 = [\i \i.li \i.ri \i.li.ri ];
+    @cc1_ahead_1 = [\i \i.li \i.ri \i.li.ri ];
+    sub @cc1_back_1 @cc1_match_1' @cc1_ahead_1  by [\i.li.ri] ;
+} calt_i_li_ri;
+
+lookup calt_i_li {
+  lookupflag 0;
+    @cc1_match_1 = [\i ];
+    @cc1_back_1 = [\i \i.li \i.ri \i.li.ri ];
+    @cc1_ahead_1 = [\i \i.li \i.ri \i.li.ri ];
+    sub @cc1_back_1 @cc1_match_1'  by [\i.li ] ;
+} calt_i_li;
+
+lookup calt_i_ri {
+  lookupflag 0;
+    @cc1_match_1 = [\i ];
+    @cc1_back_1 = [\i \i.li \i.ri \i.li.ri ];
+    @cc1_ahead_1 = [\i \i.li \i.ri \i.li.ri ];
+    sub @cc1_match_1' @cc1_ahead_1  by [\i.ri ] ;
+} calt_i_ri;
+
+feature calt {
+ script DFLT;
+     language dflt ;
+      lookup calt_i_li_ri;
+      lookup calt_i_li;
+      lookup calt_i_ri;
+
+ script latn;
+     language dflt ;
+      lookup calt_i_li_ri;
+      lookup calt_i_li;
+      lookup calt_i_ri;
+} calt;
+
