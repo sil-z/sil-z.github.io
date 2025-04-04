@@ -14,7 +14,20 @@
             background-color: #f4f4f4;
         }
         h1 {
+            text-align: center;
             color: #333;
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #007BFF;
+            display: block;
+            text-align: center;
+        }
+        a:hover {
+            color: #0056b3;
         }
         .container {
             width: 800px;
@@ -129,6 +142,7 @@
     </style>
 </head>
 <body>
+    <h1><a href="index.html">sil-calligraphy</a></h1>
     <h1>居中排版计算器</h1>
     <div class="container">
         <div class="section">
@@ -173,6 +187,7 @@
     <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
         <div class="modal" id="modal">
             <span class="close-btn" onclick="closeModal(event)">&times;</span>
+            <p>这是一个用于Engraver's Script手写字体的排版工具。</p>
             <p>1. 计算器支持对全小写的文本进行长度估计，除小写字母和空格之外的字符将被忽略；注意大写字母会被转换成小写处理，请自行规划大写字母占据空间。</p>
             <p>2. 结果将输出为本行开头到指定单词末尾占据的长度。</p>
             <p>3. 请根据实际书写偏好测量和确定参数，留空将使用默认参数；计算结果有误差，请根据实际书写调整。</p>
