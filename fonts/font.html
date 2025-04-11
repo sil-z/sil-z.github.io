@@ -8,68 +8,13 @@
     @font-face {
       font-family: "MyCustomFont";
       src: url("font1.otf") format("opentype");
+      /* src: url("KUNSTLER.TTF") format("truetype"); */
     }
 
     body {
       font-family: sans-serif;
       padding: 20px;
       background: #f2f2f2;
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-        font-size: 2rem;
-        margin: 20px 0;
-    }
-    h2 {
-        text-align: center;
-        color: #555;
-        margin-top: 20px;
-        font-size: 1.5rem;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        padding: 20px;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-        display: grid;
-        gap: 20px;
-        justify-items: center;
-        margin: 30px 0;
-    }
-    li {
-        width: 150%;
-        background-color: #fff;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    li:hover {
-        transform: scale(1.05);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
-    a {
-        text-decoration: none;
-        font-size: 1.2rem;
-        color: #007BFF;
-        display: block;
-        text-align: center;
-    }
-    a:hover {
-        color: #0056b3;
-    }
-    .footer {
-        position: absolute;
-        bottom: 20px;
-        font-size: 0.9rem;
-        color: #888;
     }
 
     .controls {
@@ -98,24 +43,10 @@
       resize: both;
       box-sizing: border-box;
     }
-
-    .description {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 30px;
-      color: #555;
-    }
   </style>
 </head>
 <body>
 
-  <h1><a href="../index.html">sil-calligraphy</a></h1>
-  <div class="description">
-    我正在制作一款基于Roundhand手写体的字体。您可以在底下的文本框中输入内容来测试！<br>
-
-    2025/04/04：完成小写字母n和i<br>
-    2025/04/05：完成小写字母a
-  </div>
   <div class="controls">
     <!-- 字体大小 -->
     <div class="control-group">
@@ -139,9 +70,95 @@
     </div>
   </div>
 
-  <textarea class="text-box" id="textBox" placeholder="请输入文本...">an ai na ia
-nininanaiaia
-nnn aaa iii</textarea>
+  <!-- 添加在 controls 中 -->
+<div class="control-group">
+  <label class="label" for="textAlign">对齐方式：</label>
+  <select id="textAlign">
+    <option value="left">左对齐</option>
+    <option value="center">居中</option>
+    <option value="right">右对齐</option>
+  </select>
+</div>
+
+
+  <!-- 放在 controls 区域下方添加一个按钮 -->
+<button onclick="downloadTextAsPNG()">下载 PNG 图片</button>
+
+<canvas id="hiddenCanvas" width="1920" height="1080" style="display:none;"></canvas>
+
+<script>
+  const textAlignInput = document.getElementById("textAlign");
+
+  // 实时更新文本框对齐方式
+  textAlignInput.addEventListener("change", () => {
+    textBox.style.textAlign = textAlignInput.value;
+  });
+
+  async function downloadTextAsPNG() {
+  const tempCanvas = document.createElement('canvas');
+  const ctx = tempCanvas.getContext('2d');
+
+  const text = textBox.value;
+  const fontSize = parseInt(fontSizeInput.value);
+  const lineHeight = parseFloat(lineHeightInput.value);
+  const fontColor = fontColorInput.value;
+  const textAlign = textAlignInput.value;
+
+  await document.fonts.ready;
+
+  ctx.font = `${fontSize}px MyCustomFont`;
+  ctx.textBaseline = "top";
+  ctx.textAlign = textAlign;
+
+  const margin = 100;
+  const lines = text.split('\n');
+  
+  // 计算最长行宽度
+  let maxLineWidth = 0;
+  for (let line of lines) {
+    const width = ctx.measureText(line || ' ').width;
+    if (width > maxLineWidth) maxLineWidth = width;
+  }
+
+  // 设置 canvas 尺寸（宽度根据最长行，+ margin；高度根据行数）
+  const canvasWidth = maxLineWidth + margin * 2;
+  const canvasHeight = lines.length * fontSize * lineHeight + margin * 2;
+  tempCanvas.width = canvasWidth;
+  tempCanvas.height = canvasHeight;
+
+  // 重新设置绘图样式（因为 canvas 重设会清除 context 设置）
+  ctx.font = `${fontSize}px MyCustomFont`;
+  ctx.fillStyle = fontColor;
+  ctx.textBaseline = "top";
+  ctx.textAlign = textAlign;
+
+  // 绘制文本
+  let y = margin;
+  for (let line of lines) {
+    let x;
+    if (textAlign === 'left') x = margin;
+    else if (textAlign === 'center') x = canvasWidth / 2;
+    else if (textAlign === 'right') x = canvasWidth - margin;
+
+    ctx.fillText(line, x, y);
+    y += fontSize * lineHeight;
+  }
+
+  // 下载图片
+  const dataURL = tempCanvas.toDataURL("image/png");
+  const link = document.createElement("a");
+  link.download = "text-image.png";
+  link.href = dataURL;
+  link.click();
+}
+
+
+</script>
+
+
+
+
+  <textarea class="text-box" id="textBox" placeholder="请输入文本...">ninini</textarea>
 
   <script>
     const fontSizeInput = document.getElementById("fontSize");
