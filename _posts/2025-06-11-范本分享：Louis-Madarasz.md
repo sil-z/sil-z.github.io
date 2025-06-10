@@ -12,16 +12,16 @@ hidden: true
 
 Scranton 网站上还有更多值得欣赏和学习的书法资料，也包括Madarasz的其他真迹。
 
-![7894](/assets/images/zanerbloser_7894_full.jpg)
+[7894](/assets/images/zanerbloser_7894_full.jpg)
 
-![7895](/assets/images/zanerbloser_7895_full.jpg)
+[7895](/assets/images/zanerbloser_7895_full.jpg)
 
-![7896](/assets/images/zanerbloser_7896_full.jpg)
+[7896](/assets/images/zanerbloser_7896_full.jpg)
 
-![7897](/assets/images/zanerbloser_7897_full.jpg)
+[7897](/assets/images/zanerbloser_7897_full.jpg)
 
-![7898](/assets/images/zanerbloser_7898_full.jpg)
+[7898](/assets/images/zanerbloser_7898_full.jpg)
 
-![7899](/assets/images/zanerbloser_7899_full.jpg)
+[7899](/assets/images/zanerbloser_7899_full.jpg)
 
-![7900](/assets/images/zanerbloser_7900_full.jpg)
+[7900](/assets/images/zanerbloser_7900_full.jpg)
