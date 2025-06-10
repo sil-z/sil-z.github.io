@@ -12,8 +12,19 @@
         {{ post.excerpt | strip_html }}
       {% else %}
         {{ post.content | strip_html | truncatewords: 30 }}
+        
       {% endif %}
     </p>
+
+    {% assign img_name = post.path | split: '/' | last | replace: '.md', '' %}
+    <img 
+      src="{{ '/assets/images/' | append: img_name | append: '.png' | relative_url }}" 
+      alt="Image for {{ post.title }}" 
+      onerror="this.style.display='none';"
+      style="max-height: 200px; height: auto; width: auto;"
+    />
+    
+    
 
   </div>
 </a>

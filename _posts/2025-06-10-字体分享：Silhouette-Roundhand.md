@@ -8,25 +8,12 @@ sticky: true
 hidden: true
 ---
 
-Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.<!--more-->
+这是我制作的第一款字体，可以在这里下载：
 
-## Tale features
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-- Sticky posts
-- Tags
-- Excerpt management
-- Disqus comments
+[GitHub](https://github.com/sil-z/Silhouette-Roundhand)
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+这是一款旨在还原Roundhand（更准确的名称是Engraver's Script）手写字体的字体。手写字体，尤其是点尖字体对字母间连接的要求很高，这也是本字体制作的主要难点。
 
-## Browser Support
-Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
+字体基本反映了我的个人风格，同时也参考了古典书法大师 W. A. Baird 的范本，以保证规范性。
 
-## Download or Contribute
-Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
-
-Thanks for checking out Tale!
+<img src="/assets/images/2025-06-10-字体分享：Silhouette-Roundhand.png">

@@ -11,10 +11,13 @@ $shadow-color: rgba(0, 0, 0, .2) !default;
 $code-color: #bf616a !default;
 
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
+$serif-primary: 'Libre Baskerville', 'NotoSerifSC', 'Times New Roman', Times, serif !default;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
+$sr: 'SilhouetteRoundhand';
+$ns: 'NotoSerifSC';
+$cp: 'Courier Prime';
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
@@ -26,4 +29,25 @@ $monospaced: Menlo, Monaco, monospace !default;
   -webkit-transition: $args;
      -moz-transition: $args;
           transition: $args;
+}
+
+@font-face {
+  font-family: 'SilhouetteRoundhand';
+  src: url('/assets/fonts/SilhouetteRoundhand.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/assets/fonts/Courier Prime.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifSC';
+  src: url('/assets/fonts/NotoSerifSC-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
