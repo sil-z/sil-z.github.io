@@ -10,7 +10,7 @@ hidden: true
 
 范本图片来自 [The University of Scranton Archives and McHugh Family Special Collections at the Weinberg Memorial Library](https://digitalservices.scranton.edu/digital/collection/zanerbloser/)，文件 ID 为 7894-7900<!--more-->，是比较少见的清晰度特别高的图片。
 
-Scranton 网站上还有更多值得欣赏和学习的书法资料。
+Scranton 网站上还有更多值得欣赏和学习的书法资料，也包括Madarasz的其他真迹。
 
 ![7894](/assets/images/zanerbloser_7894_full.jpg)
 
