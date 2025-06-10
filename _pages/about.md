@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: default
 title: "About"
 author: "Silhouette"
 permalink: /about/
 ---
+
+  <div class="tags-header">
+    <h2 class="tags-header-title">About</h2>
+    <div class="tags-header-line"></div>
+  </div>
+
 
 <div style="font-family: 'SilhouetteRoundhand', sans-serif; font-size: 144px;">
   Hola!
