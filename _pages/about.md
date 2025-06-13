@@ -19,8 +19,10 @@ permalink: /about/
 
 英文书法爱好者，同时研究一点字体设计。
 
-由于Silhouette这个名字太长了，你可以简称我sil。
+由于 Silhouette 这个名字太长了，你可以简称我 sil。
 
 Email: zz7966587 AT gmail DOT com
+
+Instagram: [https://www.instagram.com/sil_calligraphy/](https://www.instagram.com/sil_calligraphy/)
 
 小红书号：s1lhouette
