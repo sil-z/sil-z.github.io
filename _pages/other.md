@@ -20,7 +20,6 @@ permalink: /other/
 
 - 在 Windows 系统中手动置顶任何窗口：[DeskPins](https://github.com/thewhitegrizzli/DeskPins)
 - 比系统自带更好用的多媒体文件预览器：[Media Preview](https://www.babelsoft.net/products/mediapreview.htm)
-- 强大的数学函数绘图工具：[GrafEq](http://www.peda.com/grafeq/)
 - 查看文件夹占用空间：[Folder Size](https://www.folder-size.com/)
 - 将图片从 HEIC 转为通用格式：[iMazing Converter](https://imazing.com/converter)
 - 小狼毫输入法：[小狼毫输入法](https://github.com/rime/weasel)
