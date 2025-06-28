@@ -26,3 +26,5 @@ Email: zz7966587 AT gmail DOT com
 Instagram: [https://www.instagram.com/sil_calligraphy/](https://www.instagram.com/sil_calligraphy/)
 
 小红书号：s1lhouette
+
+[杂项 / 便签](/other/)
