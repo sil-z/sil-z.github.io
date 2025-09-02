@@ -21,10 +21,22 @@ permalink: /other/
 - 在 Windows 系统中手动置顶任何窗口：[DeskPins](https://github.com/thewhitegrizzli/DeskPins)
 - 比系统自带更好用的多媒体文件预览器：[Media Preview](https://www.babelsoft.net/products/mediapreview.htm)
 - 查看文件夹占用空间：[Folder Size](https://www.folder-size.com/)
+- 查看空间 - alternate：TreeSize
 - 将图片从 HEIC 转为通用格式：[iMazing Converter](https://imazing.com/converter)
 - 小狼毫输入法：[小狼毫输入法](https://github.com/rime/weasel)
-- 最后的 Flash Player：[Clean Flash Player](https://github.com/TCOTC/CleanFlash_Installer)
-- 不需要推荐的软件：Everything; CrystalDiskInfo; Recuva; DiskGenius; 7-Zip; Honeyview; FFmpeg; ...
+- Flash Player：[Clean Flash Player](https://github.com/TCOTC/CleanFlash_Installer)
+- 文件管理器：Everything
+- 监控硬盘状态：CrystalDiskInfo
+- 恢复删除文件：Recuva（固态硬盘一般无效）
+- 硬盘工具：DiskGenius
+- 图片查看器：Honeyview
+- 视频播放器：VLC
+- 文件内容检索：FileLocator Pro
+- Windows 系统文件资源管理器增强：QTTabBar
+- 屏幕录制：OBS Studio
+- Markdown 导出：MarkText
+- 沙箱：Sandboxie-Plus
+- 图片质量智能增强：Upscayl
 
 ## 书法网站
 
