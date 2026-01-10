@@ -73,7 +73,7 @@ Everything，文件索引工具，非开源软件
 - 从 [github.com/hiroi-sora/Umi-OCR](github.com/hiroi-sora/Umi-OCR) 下载 OCR 工具
 
 
-一些操作：
+## 一些操作步骤
 
 当删除文件出现需要 TrustedInstaller 许可的警告时，以管理员权限运行 PowerShell，使用以下命令删除：
 
