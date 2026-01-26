@@ -88,3 +88,7 @@ Remove-Item <file_path> -Recurse -Force
 ---
 
 系统搜索栏中有一个 Trending searches 的牛皮癣，清除方法：在注册表 Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer 下新建 DWORD 32 值，命名为 DisableSearchBoxSuggestions，值为 1
+
+---
+
+慎重在 Windows 文件资源管理器中使用 Ctrl + Z 撤回操作。如果新建了一个文件并编辑了内容，使用 Ctrl + Z 撤回新建文件的动作，将导致文件内容永久性丢失。重新使用 Ctrl + Y 只能重新创建一个空文件，原来编辑过的内容几乎无法找回。
