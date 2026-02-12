@@ -46,6 +46,7 @@ permalink: /other/
 
 ## 浏览器工具
 - 从 github.com/ungoogled-software/ungoogled-chromium 下载纯净的 Chromium 浏览器
+- LibreWolf，IceCat，Tor Browser
 - 从 github.com/xifangczy/cat-catch 下载猫抓插件，用于网页视频和音频抓取
 - 从 github.com/NeverDecaf/chromium-web-store 下载插件，使 Ungoogled Chromium 能够正常访问 Chrome 应用商店
 - 安装 Free Download Manager 软件和浏览器插件，非开源软件
@@ -62,13 +63,13 @@ permalink: /other/
 - 从 mythicsoft.com/filelocatorpro 下载文件内容检索软件，非开源软件
 - 从 jam-software.com/treesize 下载磁盘空间分析软件，非开源软件
 - 从 github.com/WerWolv/ImHex 下载十六进制编辑器
-- VMWare，虚拟机软件，非开源软件
+- Oracle VirtualBox，虚拟机软件
 - 从 fonts.google.com/noto 下载 Noto 字体
 - GIMP，位图编辑软件
 - Inkscape，矢量图编辑软件
 - qBittorrent，P2P 下载器
 - Sandboxie Plus，沙箱软件
-- 从 github.com/marktext/marktext 下载 Markdown 编辑和格式转换器
+- 从 github.com/marktext/marktext 下载 Markdown 编辑和格式转换器，这个用于转 PDF 和 HTML 非常好用，作为编辑器不好用
 - 从 github.com/microsoft/terminal 下载 Windows Terminal，微软特色，下载很容易莫名其妙失败，因此最好保留一份可用版本
 - 从 github.com/VSCodium/vscodium 下载去微软的 VSCodium
 - FFmpeg
