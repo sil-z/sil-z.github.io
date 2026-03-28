@@ -4,7 +4,7 @@ title:  "范本分享：Louis Madarasz"
 author: "Silhouette"
 tags: 点尖书法
 excerpt_separator: <!--more-->
-sticky: true
+sticky: false
 hidden: true
 ---
 
