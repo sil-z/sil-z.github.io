@@ -21,6 +21,6 @@ permalink: /about/
 
 Email: zz7966587 AT gmail DOT com
 
-Instagram: [https://www.instagram.com/sil_calligraphy/](https://www.instagram.com/sil_calligraphy/)
+Instagram: [https://www.instagram.com/silhouette_z_4296/](https://www.instagram.com/silhouette_z_4296/)
 
 [杂项 / 便签](/other/)
