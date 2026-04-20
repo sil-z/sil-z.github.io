@@ -120,6 +120,8 @@ Love Thing - Joe Satriani
 
 Enter Sandman - Metallica
 
+Orion - Metallica
+
 Chariots of Fire - Vangelis
 
 Dream on - Aerosmith
@@ -127,8 +129,6 @@ Dream on - Aerosmith
 Кукушка - Кино
 
 when you sleep - my bloody valentine
-
-Orion - Metallica
 
 Stir It Up - Bob Marley
 
