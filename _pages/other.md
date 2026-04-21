@@ -40,12 +40,6 @@ Hotel California - Eagles
 
 Marianas Trench - August Burns Red
 
-Pain Remains - Lorna Shore
-
-To the Hellfire / Of the Abyss / ...And I Return to Nothingness - Lorna Shore
-
-Gravity - Novelists
-
 All Signs Point to Lauderdale - A Day to Remember
 
 Wake Up - Rage Against the Machine
@@ -58,31 +52,15 @@ City of Blinding Lights - U2
 
 Bad - U2
 
-Beautiful Day - U2
-
-Where the Streets Have No Name - U2
-
-All I Want is You - U2
-
-Hawkmoon 269 - U2
-
 Black Veins - Adept
 
 LosT - Bring Me the Horizon
-
-Cry for the Moon - Epica
 
 I’d Do Anything for Love (But I Won’t Do That) - Meat Loaf
 
 Riders on the Storm - The Doors
 
 When the Music's Over - The Doors
-
-Hearts Burst into Fire - Bullet for My Valentine
-
-Wants & Needs - Dreamshade
-
-Like a Stone - Audioslave
 
 Even Flow - Pearl Jam
 
@@ -92,11 +70,7 @@ Canon Rock - JerryC
 
 Toxicity - System of a Down
 
-梦回唐朝 - 唐朝乐队
-
 国际歌 - 唐朝乐队
-
-Sweet Decadance - Psychonaut 4
 
 Bitter Sweet Symphony - The Verve
 
@@ -112,6 +86,12 @@ Love the Way You Lie - Eminem
 
 Careless Whisper - George Michael
 
+Pain Remains - Lorna Shore
+
+To the Hellfire / Of the Abyss / ...And I Return to Nothingness - Lorna Shore
+
+Gravity - Novelists
+
 (Everything I Do) I Do It for You - Bryan Adams
 
 Apollo - Crystal Lake
@@ -124,55 +104,45 @@ Orion - Metallica
 
 Chariots of Fire - Vangelis
 
-Dream on - Aerosmith
+It's My Life - Bon Jovi
+
+Psychosocial - Slipknot
+
+Dreams Burn Down - Ride
+
+Motorcycle Emptiness - Manic Street Preachers
+
+Estranged - Guns N' Roses
+
+Everyday - Buddy Holly
+
+What's Up? - 4 Non Blondes
+
+All Out of Love - Air Supply
+
+生如夏花 - 朴树
+
+Hearts Burst into Fire - Bullet for My Valentine
+
+Wants & Needs - Dreamshade
+
+Like a Stone - Audioslave
+
+Love is All Around - Wet Wet Wet
+
+在路上 - 麦田守望者
+
+Cry for the Moon - Epica
+
+Thriller - Michael Jackson
+
+You Are Not Alone - Michael Jackson
 
 Кукушка - Кино
 
 when you sleep - my bloody valentine
 
 Stir It Up - Bob Marley
-
-It's My Life - Bon Jovi
-
-Nothing - Norther
-
-Somebody to Love - Queen
-
-Psychosocial - Slipknot
-
-Dreams Burn Down - Ride
-
-In the End - Linkin Park
-
-Motorcycle Emptiness - Manic Street Preachers
-
-Just Like Heaven - The Cure
-
-Unchained Melody - The Righteous Brothers
-
-"Heroes" - David Bowie
-
-Estranged - Guns N' Roses
-
-Mr. Sandman - The Chordettes
-
-Everyday - Buddy Holly
-
-What's Up? - 4 Non Blondes
-
-Five Hundred Miles
-
-All Out of Love - Air Supply
-
-生如夏花 - 朴树
-
-Love is All Around - Wet Wet Wet
-
-在路上 - 麦田守望者
-
-Thriller - Michael Jackson
-
-You Are Not Alone - Michael Jackson
 
 ## 书法网站
 
