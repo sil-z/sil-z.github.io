@@ -108,15 +108,9 @@ It's My Life - Bon Jovi
 
 Psychosocial - Slipknot
 
-Dreams Burn Down - Ride
-
 Motorcycle Emptiness - Manic Street Preachers
 
-Estranged - Guns N' Roses
-
 Everyday - Buddy Holly
-
-What's Up? - 4 Non Blondes
 
 All Out of Love - Air Supply
 
