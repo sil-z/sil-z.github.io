@@ -171,9 +171,11 @@ Stir It Up - Bob Marley
 - LibreWolf，IceCat，Tor Browser
 - 从 github.com/xifangczy/cat-catch 下载猫抓插件，用于网页视频和音频抓取
 - 从 github.com/NeverDecaf/chromium-web-store 下载插件，使 Ungoogled Chromium 能够正常访问 Chrome 应用商店
-- 安装 Free Download Manager 软件和浏览器插件，非开源软件
+- 安装 Free Download Manager 软件和浏览器插件
 - 从 tampermonkey.net 下载篡改猴浏览器插件，从 greasyfork.org 获取脚本
 - 从 github.com/Bistutu/FluentRead 下载浏览器翻译插件
+- Video Speed Controller
+- Volume Master
 
 ## 可选软件
 - 从 github.com/ashaduri/gsmartcontrol 下载 SSD 状态检测工具
